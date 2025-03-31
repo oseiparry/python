@@ -54,3 +54,6 @@ elif unit1=="km" and unit2=="mm":
 elif unit1=="km" and unit2=="cm":
     length=num1*100000
     print(f'The value of {num1} in {unit2} is {length}{unit2}')
+
+else:
+    print('Please enter a valid unit')
